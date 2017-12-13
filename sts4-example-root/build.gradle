@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+group = 'brunpoern.sts4'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '4.4'
+}

@@ -1,0 +1,8 @@
+include 'sts4-example-app1'
+include 'sts4-example-app2'
+include 'sts4-example-commons'
+
+rootProject.projectDir = settingsDir
+rootProject.children.each{ project -> 
+	project.projectDir = file("../$project.name")
+}
