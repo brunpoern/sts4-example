@@ -14,3 +14,7 @@ cd sts4-example-root
 cd sts4-example-app1
 ../sts4-example-root/gradlew -c ../sts4-example-root/settings.gradle assemble
 ```
+
+## Import project in Eclipse
+
+Import root project from `sts4-example-root` in Eclipse using Buildship
