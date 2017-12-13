@@ -1,2 +1,4 @@
 # sts4-example
-Demo projects for Eclipse STS4
+Demo project for Eclipse STS4
+
+= Build project from root dir =
